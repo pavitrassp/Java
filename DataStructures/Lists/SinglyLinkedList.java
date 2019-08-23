@@ -44,7 +44,7 @@ public class SinglyLinkedList {
             Node cur = head;
             Node node = new Node(data);
             for (int i = 1; i < position; ++i) {
-                cur = cur.next;
+                cur = cur.next; 
             }
             node.next = cur.next;
             cur.next = node;
